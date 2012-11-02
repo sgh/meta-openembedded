@@ -4,7 +4,7 @@ SRC_URI = "http://prdownloads.sourceforge.net/wine/wine-${PV}.tar.bz2"
 SRC_URI[md5sum] = "0c28702ed478df7a1c097f3a9c4cabd6"
 SRC_URI[sha256sum] = "3c233e3811e42c2f3623413783dbcd0f2288014b5645211f669ffd0ba6ae1856"
 
-DEPENDS = "m4 libtool freetype"
+DEPENDS = "m4 libtool freetype virtual/xserver"
 
 inherit autotools
 
